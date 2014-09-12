@@ -5,7 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" href="res/img/favicon.ico">
-
 		<title>Thomas Gaubert</title>
 
 		<link href="res/css/bootstrap.min.css" rel="stylesheet">
@@ -16,12 +15,6 @@
 	</head>
 	<body>
 		<div id="bg1"></div>
-		<!-- 
-		<div id="name">
-			Thomas Gaubert
-			<p>University of Texas &middot; Computer Science</p>
-		</div>
-		-->
 
 		<!-- About -->
 		<div id="about">
@@ -44,15 +37,6 @@
 				</ul>
 			</div>
 		</div>
-		
-		<!-- Featured -->
-		<!-- 
-		<div id="featured">
-			<a href="http://texasgamer.me/projects/tockle"><img src="res/img/tockle.png"></img></a>
-			<p>Tockle</p>
-			<small>Control your phone from Android Wear</p>
-		</div>
-		-->
 		
 		<!-- Links -->
 		<div id="links">
