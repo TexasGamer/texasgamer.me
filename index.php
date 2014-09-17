@@ -33,6 +33,13 @@
 					<li><a href="projects/tockle"><img src="res/img/tockle.png" width="20" height="20" style="vertical-align: middle;"></img> Tockle</a></li>
 					<li><a href="projects/skcraft-mobile"><img src="res/img/skcraft-mobile.png" width="20" height="20" style="vertical-align: middle;"></img> SKCraft Mobile</a></li>
 					<li class="divider"></li>
+					<li class="dropdown-header">Web</li>
+					<li><a href="http://github.com/TexasGamer/roketgamer"><img src="res/img/roketgamer.png" width="20" height="20" style="vertical-align: middle;"></img> RoketGamer</a></li>
+					<li class="divider"></li>
+					<li class="dropdown-header">Java</li>
+					<li><a href="http://github.com/JPII/NavalBattle"><img src="res/img/navalbattle.png" width="20" height="20" style="vertical-align: middle;"></img> NavalBattle</a></li>
+					<li><a href="http://github.com/JPII/GameKit"><img src="res/img/gamekit.png" width="20" height="20" style="vertical-align: middle;"></img> GameKit</a></li>
+					<li class="divider"></li>
 					<li><a href="http://github.com/TexasGamer">More on GitHub</a></li>
 				</ul>
 			</div>
