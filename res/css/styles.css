@@ -6,6 +6,10 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
 	color: #FFFFFF;
 	background-color: #455A64;
 }
@@ -64,12 +68,16 @@ body {
 	border-radius: 5px;
 	display: inline-block;
 	-webkit-transition: all .2s cubic-bezier(.55,0,.1,1);
+	-moz-transition: all .2s cubic-bezier(.55,0,.1,1);
+	-ms-transition: all .2s cubic-bezier(.55,0,.1,1);
+	-o-transition: all .2s cubic-bezier(.55,0,.1,1);
 	transition: all .2s cubic-bezier(.55,0,.1,1);
 }
 
 .projects-btn:hover {
 	-webkit-transform:scale(1.1);
 	-moz-transform:scale(1.1);
+	-ms-transform:scale(1.1);
 	-o-transform:scale(1.1);
 	transform:scale(1.1);
 }
@@ -77,9 +85,14 @@ body {
 .animate {
 	-webkit-animation: show 1s cubic-bezier(.55,0,.1,1);
     -moz-animation: show 1s cubic-bezier(.55,0,.1,1);
+    -ms-animation: show 1s cubic-bezier(.55,0,.1,1);
     -o-animation: show 1s cubic-bezier(.55,0,.1,1);
     animation: show 1s cubic-bezier(.55,0,.1,1);
     -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
     visibility: hidden;
 }
 
@@ -87,6 +100,7 @@ body {
 	0% {
    		-webkit-transform:scale(0);
    		-moz-transform:scale(0);
+   		-ms-transform:scale(0);
    		-o-transform:scale(0);
    		transform:scale(0);
    		opacity: 0;
@@ -94,6 +108,7 @@ body {
   	100% {
   		-webkit-transform:scale(1);
    		-moz-transform:scale(1);
+   		-ms-transform:scale(1);
    		-o-transform:scale(1);
    		transform:scale(1);
   		opacity: 1;
@@ -103,35 +118,40 @@ body {
 
 .animate:nth-child(2) { 
 	-webkit-animation-delay: 0.2s;
-	-moz-animation-delay: 0.2s; 
+	-moz-animation-delay: 0.2s;
+	-ms-animation-delay: 0.2s;
 	-o-animation-delay: 0.2s;
 	animation-delay: 0.2s;
 }
 
 .animate:nth-child(3) {
 	-webkit-animation-delay: 0.3s;
-	-moz-animation-delay: 0.3s; 
+	-moz-animation-delay: 0.3s;
+	-ms-animation-delay: 0.3s;
 	-o-animation-delay: 0.3s;
 	animation-delay: 0.3s;
 }
 
 .animate:nth-child(4) { 
 	-webkit-animation-delay: 0.4s;
-	-moz-animation-delay: 0.4s; 
+	-moz-animation-delay: 0.4s;
+	-ms-animation-delay: 0.4s;
 	-o-animation-delay: 0.4s;
 	animation-delay: 0.4s;
 }
 
 .animate:nth-child(5) { 
 	-webkit-animation-delay: 0.5s;
-	-moz-animation-delay: 0.5s; 
+	-moz-animation-delay: 0.5s;
+	-ms-animation-delay: 0.5s;
 	-o-animation-delay: 0.5s;
 	animation-delay: 0.5s;
 }
 
 .animate:nth-child(6) { 
 	-webkit-animation-delay: 0.6s;
-	-moz-animation-delay: 0.6s; 
+	-moz-animation-delay: 0.6s;
+	-ms-animation-delay: 0.6s;
 	-o-animation-delay: 0.6s;
 	animation-delay: 0.6s;
 }
@@ -175,9 +195,13 @@ body {
 	border-radius: 5px;
 	display: inline-block;
 	-webkit-transition: all .2s cubic-bezier(.55,0,.1,1);
+	-moz-transition: all .2s cubic-bezier(.55,0,.1,1);
+	-ms-transition: all .2s cubic-bezier(.55,0,.1,1);
+	-o-transition: all .2s cubic-bezier(.55,0,.1,1);
 	transition: all .2s cubic-bezier(.55,0,.1,1);
 	-webkit-animation-delay: 0.5s;
 	-moz-animation-delay: 0.5s; 
+	-ms-animation-delay: 0.5s; 
 	-o-animation-delay: 0.5s;
 	animation-delay: 0.5s;
 }
@@ -185,6 +209,7 @@ body {
 .back-btn:hover {
 	-webkit-transform:scale(1.1);
 	-moz-transform:scale(1.1);
+	-ms-transform:scale(1.1);
 	-o-transform:scale(1.1);
 	transform:scale(1.1);
 }
@@ -205,9 +230,14 @@ body {
 	border-radius: 2px;
 	-webkit-animation: show 1s cubic-bezier(.55,0,.1,1);
     -moz-animation: show 1s cubic-bezier(.55,0,.1,1);
+    -ms-animation: show 1s cubic-bezier(.55,0,.1,1);
     -o-animation: show 1s cubic-bezier(.55,0,.1,1);
     animation: show 1s cubic-bezier(.55,0,.1,1);
     -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
     visibility: hidden;
 }
 
@@ -236,8 +266,6 @@ body {
 .card a {
     color: #FF5722;
     margin-right: 20px;
-    -webkit-transition: color 0.3s ease;
-    transition: color 0.3s ease;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -293,12 +321,14 @@ body {
 	0% {
    		-webkit-transform:scale(0);
    		-moz-transform:scale(0);
+   		-ms-transform:scale(0);
    		-o-transform:scale(0);
    		transform:scale(0);
 	}
   	100% {
   		-webkit-transform:scale(1);
    		-moz-transform:scale(1);
+   		-ms-transform:scale(1);
    		-o-transform:scale(1);
    		transform:scale(1);
   		visibility: visible;
@@ -307,21 +337,24 @@ body {
 
 .card-2 { 
 	-webkit-animation-delay: 0.2s;
-	-moz-animation-delay: 0.2s; 
+	-moz-animation-delay: 0.2s;
+	-ms-animation-delay: 0.2s;
 	-o-animation-delay: 0.2s;
 	animation-delay: 0.2s;
 }
 
 .card-3 { 
 	-webkit-animation-delay: 0.3s;
-	-moz-animation-delay: 0.3s; 
+	-moz-animation-delay: 0.3s;
+	-ms-animation-delay: 0.3s;
 	-o-animation-delay: 0.3s;
 	animation-delay: 0.3s;
 }
 
 .card-4 { 
 	-webkit-animation-delay: 0.4s;
-	-moz-animation-delay: 0.4s; 
+	-moz-animation-delay: 0.4s;
+	-ms-animation-delay: 0.4s;
 	-o-animation-delay: 0.4s;
 	animation-delay: 0.4s;
 }
