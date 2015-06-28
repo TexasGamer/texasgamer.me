@@ -5,58 +5,116 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" href="res/img/favicon.ico">
+		
 		<title>Thomas Gaubert</title>
 
-		<link href="res/css/bootstrap.min.css" rel="stylesheet">
-		<link href="res/css/font-awesome.min.css" rel="stylesheet">
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="res/js/animate.js"></script>
+
+		<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 		<link href="res/css/styles.css" rel="stylesheet">
 	</head>
 	<body>
-		<div id="bg1"></div>
-
-		<!-- About -->
-		<div id="about">
-			<a href="http://google.com/+ThomasGaubert"><img class="img-circle" src="res/img/profile.jpg"></img></a>
-			<p>Thomas Gaubert</p>
-		</div>
-		
-		<!-- Projects -->
-		<div id="projects">
-			<div class="btn-group project-btn">
-				<a class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-					Projects <span class="caret"></span>
-				</a>
-				<ul class="dropdown-menu dropdown-menu-right" role="menu">
-					<li class="dropdown-header">Android</li>
-					<li><a href="projects/tockle"><img src="res/img/tockle.png" width="20" height="20" style="vertical-align: middle;"></img> Tockle</a></li>
-					<li><a href="projects/skcraft-mobile"><img src="res/img/skcraft-mobile.png" width="20" height="20" style="vertical-align: middle;"></img> SKCraft Mobile</a></li>
-					<li class="divider"></li>
-					<li class="dropdown-header">Web</li>
-					<li><a href="http://ensembleplayer.me"><img src="res/img/ensemble.png" width="20" height="20" style="vertical-align: middle;"></img> Ensemble</a></li>
-					<li><a href="http://github.com/TexasGamer/roketgamer"><img src="res/img/roketgamer.png" width="20" height="20" style="vertical-align: middle;"></img> RoketGamer</a></li>
-					<li class="divider"></li>
-					<li class="dropdown-header">Java</li>
-					<li><a href="http://github.com/TexasGamer/smite"><img src="res/img/navalbattle.png" width="20" height="20" style="vertical-align: middle; opacity: 0;"></img> Smite</a></li>
-					<li><a href="http://github.com/JPII/NavalBattle"><img src="res/img/navalbattle.png" width="20" height="20" style="vertical-align: middle;"></img> NavalBattle</a></li>
-					<li><a href="http://github.com/JPII/GameKit"><img src="res/img/gamekit.png" width="20" height="20" style="vertical-align: middle;"></img> GameKit</a></li>
-					<li class="divider"></li>
-					<li><a href="http://github.com/TexasGamer">More on GitHub</a></li>
+		<div class="profile">
+			<img class="profile-picture" src="res/img/profile.jpg"/>
+			<p class="name">Thomas Gaubert</p>
+			<div id="links">
+				<ul>
+					<li class="animate"><a href="http://github.com/TexasGamer">GITHUB</a></li>
+					<li class="animate"><a href="resume.pdf">RESUME</a></li>
+					<li class="animate"><a href="http://google.com/+ThomasGaubert">GOOGLE+</a></li>
+					<li class="animate"><a href="http://twitter.com/ThomasGaubert">TWITTER</a></li>
+					<li class="animate"><a href="tpgaubert@gmail.com">EMAIL</a></li>
 				</ul>
 			</div>
+			<a class="projects-btn animate" href="#">Projects</a>
 		</div>
-		
-		<!-- Links -->
-		<div id="links">
-			<a class="github" href="http://github.com/TexasGamer" target="_blank"><i class="fa fa-github-square"></i> GitHub &middot;</a>
-			<a class ="resume" href="resume.pdf" target="_blank"><i class="fa fa-file-text-o"></i> Resume &middot;</a>
-			<a class ="gplus" href="http://www.google.com/+ThomasGaubert" target="blank"><i class="fa fa-google-plus-square"></i> Google+ &middot;</a>
-			<a class ="twitter" href="http://www.twitter.com/ThomasGaubert" target="blank"><i class="fa fa-twitter-square"></i> Twitter &middot;</a>
-			<a class ="email" href="mailto:tpgaubert@gmail.com" target="_blank"><i class="fa fa-envelope"></i> Email</a>
+
+		<div class="projects">
+			<div class="cards">
+				<div class="card card-1">
+					<div class="image" id="card-1-image">
+						<img src="res/img/card-1.jpg">
+						<span class="title title-lobster">Tockle</span>
+					</div>
+					<div class="content" id="card-1-content">
+						<p>Control your phone from Android Wear.</p>
+					</div>
+					<div class="content" id="card-1-content-more">
+						<div class="title title-lobster">Tockle</div>
+						<ul class="no-bullets">
+							<li><b>Launched:</b> August 2014</li>
+							<li><b>Platform:</b> Android</li>
+							<li><b>Active users:</b> 8,000</li>
+							<li><b>Downloads:</b> 20,000</li>
+						</ul>
+						<b>Coverage</b>
+						<ul>
+							<li>Gizmodo, Android Police, and more</li>
+							<li>Featured at Google I/O 2015</li>
+						</li>
+					</div>
+					<div class="action" id="card-1-action">
+						<a href="https://play.google.com/store/apps/details?id=com.texasgamer.tockle">Play Store</a>
+						<a href="#" id="info-more-1">More Info</a>
+					</div>
+					<div class="action" id="card-1-action-more">
+						<a href="projects/tockle">Website</a>
+						<a href="#" id="info-less-1">Less Info</a>
+					</div>
+				</div>
+				<div class="card card-2">
+					<div class="image darken" id="card-2-image">
+						<img src="res/img/card-2.png">
+						<span class="title title-lobster">Ensemble</span>
+					</div>
+					<div class="content" id="card-2-content">
+						<p>Unified streaming music.</p>
+					</div>
+					<div class="content" id="card-2-content-more">
+						<div class="title title-lobster">Ensemble</div>
+						<ul class="no-bullets">
+							<li><b>Launched:</b> Under Development</li>
+							<li><b>Platform:</b> Web</li>
+						</ul>
+						<b>Notes</b>
+						<ul>
+							<li>Created as part of HackDFW 2015</li>
+							<li>Currently supports Google Play Music and YouTube</li>
+						</li>
+					</div>
+					<div class="action" id="card-2-action">
+						<a href="https://ensembleplayer.me">Web</a>
+						<a href="#" id="info-more-2">More Info</a>
+					</div>
+					<div class="action" id="card-2-action-more">
+						<a href="http://github.com/EnsemblePlayer">GitHub</a>
+						<a href="#" id="info-less-2">Less Info</a>
+					</div>
+				</div>
+				<div class="stacked-cards">
+					<div class="card card-3">
+						<div class="content">
+							<span class="title">More Projects</span>
+							<p>Even more projects available on GitHub.</p>
+						</div>
+						<div class="action">
+							<a href="https://github.com/TexasGamer">GitHub</a>
+						</div>
+					</div>
+					<div class="card card-4">
+						<div class="content">
+							<span class="title">About Me</span>
+							<p>I'm a second year Computer Science major at The University of Texas at Austin with a passion for tech and the outdoors.</p><br>
+						</div>
+					</div>
+				</div>
+				<div class="buttons">
+					<a class="back-btn animate" href="#">Back</a>
+				</div>
+			</div>
 		</div>
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="res/js/bootstrap.min.js"></script>
 	</body>
 </html>
