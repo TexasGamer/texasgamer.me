@@ -325,3 +325,20 @@ body {
 	-o-animation-delay: 0.4s;
 	animation-delay: 0.4s;
 }
+
+@media (max-width: 1375px) {
+	.cards {
+		width: 750px;
+		margin: auto;
+	}
+
+	.stacked-cards {
+	  	width: 100%; 
+	}
+}
+
+@media (max-width: 825px) {
+	.cards {
+		width: 375px;
+	}
+}
