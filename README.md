@@ -3,5 +3,5 @@ texasgamer.me
 
 Personal website.
 
-* http://texasgamer.me
+* http://gaubert.io
 * http://cs.utexas.edu/~tgaubert
