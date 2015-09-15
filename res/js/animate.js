@@ -4,6 +4,8 @@ $(document).ready(function() {
 	$('#card-1-action-more').hide();
 	$('#card-2-content-more').hide();
 	$('#card-2-action-more').hide();
+	$('#card-3-content-more').hide();
+	$('#card-3-action-more').hide();
 	
 	$('.projects-btn').click(function(e) {   
 	    $('.profile').fadeOut('fast', function() {
@@ -59,6 +61,29 @@ $(document).ready(function() {
 	    $('#card-2-action-more').fadeOut('fast', function() {
 	        $('#card-2-action').fadeIn('fast');
 	        $('#card-2-image').fadeIn('fast');
+	    });
+
+	});
+	
+	$('#info-more-3').click(function(e) {  
+		var hiddentContentHeight = $('#card-3-image').height() + $('#card-3-content').height();
+	    $('#card-3-image').fadeOut('fast');
+	    $('#card-3-content').fadeOut('fast', function() {
+	        $('#card-3-content-more').fadeIn('fast');
+	    });
+	    $('#card-3-action').fadeOut('fast', function() {
+	        $('#card-3-action-more').fadeIn('fast');
+	    });
+	    $('#card-3-content-more').height(hiddentContentHeight);
+	});
+
+	$('#info-less-3').click(function(e) {   
+	    $('#card-3-content-more').fadeOut('fast', function() {
+	        $('#card-3-content').fadeIn('fast');
+	    });
+	    $('#card-3-action-more').fadeOut('fast', function() {
+	        $('#card-3-action').fadeIn('fast');
+	        $('#card-3-image').fadeIn('fast');
 	    });
 
 	});

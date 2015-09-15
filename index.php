@@ -26,7 +26,7 @@
 					<li class="animate"><a href="resume.pdf">RESUME</a></li>
 					<li class="animate"><a href="http://google.com/+ThomasGaubert">GOOGLE+</a></li>
 					<li class="animate"><a href="http://twitter.com/ThomasGaubert">TWITTER</a></li>
-					<li class="animate"><a href="tpgaubert@gmail.com">EMAIL</a></li>
+					<li class="animate"><a href="mailto:tpgaubert@gmail.com">EMAIL</a></li>
 				</ul>
 			</div>
 			<a class="projects-btn animate" href="#">Projects</a>
@@ -94,8 +94,34 @@
 						<a href="#" id="info-less-2">Less Info</a>
 					</div>
 				</div>
+				
+				<div class="card card-3">
+					<div class="image" id="card-3-image">
+						<img src="res/img/card-3.png">
+					</div>
+					<div class="content" id="card-3-content">
+						<p>UT Austin's annual premire hackathon.</p>
+					</div>
+					<div class="content" id="card-3-content-more">
+						<div class="title">HackTX 2015</div>
+						<ul>
+							<li>Designed and developed Electron, a lightning fast check-in system for Android.</li>
+							<li>Designed and developed schedule view for event's Android application.</li>
+						</li>
+					</div>
+					<div class="action" id="card-3-action">
+						<a href="https://hacktx.com">Web</a>
+						<a href="#" id="info-more-3">More Info</a>
+					</div>
+					<div class="action" id="card-3-action-more">
+						<a href="http://github.com/hacktx/electron">Electron</a>
+						<a href="http://github.com/hacktx/android">Android</a>
+						<a href="#" id="info-less-3">Less Info</a>
+					</div>
+				</div>
+				
 				<div class="stacked-cards">
-					<div class="card card-3">
+					<div class="card card-4">
 						<div class="content">
 							<span class="title">More Projects</span>
 							<p>Even more projects available on GitHub.</p>
@@ -104,7 +130,7 @@
 							<a href="https://github.com/TexasGamer">GitHub</a>
 						</div>
 					</div>
-					<div class="card card-4">
+					<div class="card card-5">
 						<div class="content">
 							<span class="title">About Me</span>
 							<p>I'm a second year Computer Science major at The University of Texas at Austin with a passion for tech and the outdoors.</p><br>
