@@ -11,12 +11,14 @@ $(document).ready(function() {
 	    $('.profile').fadeOut('fast', function() {
 	        $('.projects').fadeIn('fast');
 	    });
+		return false;
 	});
 
 	$('.back-btn').click(function(e) {   
 	    $('.projects').fadeOut('fast', function() {
 	        $('.profile').fadeIn('fast');
 	    });
+		return false;
 	});
 
 	$('#info-more-1').click(function(e) {  
@@ -29,6 +31,7 @@ $(document).ready(function() {
 	        $('#card-1-action-more').fadeIn('fast');
 	    });
 	    $('#card-1-content-more').height(hiddentContentHeight);
+		return false;
 	});
 
 	$('#info-less-1').click(function(e) {   
@@ -39,7 +42,7 @@ $(document).ready(function() {
 	        $('#card-1-action').fadeIn('fast');
 	        $('#card-1-image').fadeIn('fast');
 	    });
-
+		return false;
 	});
 
 	$('#info-more-2').click(function(e) {  
@@ -52,6 +55,7 @@ $(document).ready(function() {
 	        $('#card-2-action-more').fadeIn('fast');
 	    });
 	    $('#card-2-content-more').height(hiddentContentHeight);
+		return false;
 	});
 
 	$('#info-less-2').click(function(e) {   
@@ -62,7 +66,7 @@ $(document).ready(function() {
 	        $('#card-2-action').fadeIn('fast');
 	        $('#card-2-image').fadeIn('fast');
 	    });
-
+		return false;
 	});
 	
 	$('#info-more-3').click(function(e) {  
@@ -75,6 +79,7 @@ $(document).ready(function() {
 	        $('#card-3-action-more').fadeIn('fast');
 	    });
 	    $('#card-3-content-more').height(hiddentContentHeight);
+		return false;
 	});
 
 	$('#info-less-3').click(function(e) {   
@@ -85,6 +90,6 @@ $(document).ready(function() {
 	        $('#card-3-action').fadeIn('fast');
 	        $('#card-3-image').fadeIn('fast');
 	    });
-
+		return false;
 	});
 });
