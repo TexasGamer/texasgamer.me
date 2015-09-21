@@ -106,7 +106,7 @@
 						<div class="title">HackTX 2015</div>
 						<ul>
 							<li>Designed and developed Electron, a lightning fast check-in system for Android.</li>
-							<li>Designed and developed schedule view for event's Android application.</li>
+							<li>Designed and developed schedule view and Bluetooth beacon integration for event's Android application.</li>
 						</li>
 					</div>
 					<div class="action" id="card-3-action">
