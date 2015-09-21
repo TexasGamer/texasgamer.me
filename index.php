@@ -100,7 +100,7 @@
 						<img src="res/img/card-3.png">
 					</div>
 					<div class="content" id="card-3-content">
-						<p>UT Austin's annual premire hackathon.</p>
+						<p>UT Austin's annual premiere hackathon.</p>
 					</div>
 					<div class="content" id="card-3-content-more">
 						<div class="title">HackTX 2015</div>
