@@ -32,114 +32,116 @@
 			<a class="projects-btn animate" href="#">Projects</a>
 		</div>
 
-		<div class="projects">
-			<div class="cards">
-				<div class="card card-1">
-					<div class="image" id="card-1-image">
-						<img src="res/img/card-1.jpg">
-						<span class="title title-lobster">Tockle</span>
-					</div>
-					<div class="content" id="card-1-content">
-						<p>Control your phone from Android Wear.</p>
-					</div>
-					<div class="content" id="card-1-content-more">
-						<div class="title title-lobster">Tockle</div>
-						<ul class="no-bullets">
-							<li><b>Launched:</b> August 2014</li>
-							<li><b>Platform:</b> Android</li>
-							<li><b>Active users:</b> 8,000</li>
-							<li><b>Downloads:</b> 30,000</li>
-						</ul>
-						<b>Coverage</b>
-						<ul>
-							<li>Gizmodo, Android Police, and more</li>
-							<li>Featured at Google I/O 2015</li>
-						</li>
-					</div>
-					<div class="action" id="card-1-action">
-						<a href="https://play.google.com/store/apps/details?id=com.texasgamer.tockle">Play Store</a>
-						<a href="#" id="info-more-1">More Info</a>
-					</div>
-					<div class="action" id="card-1-action-more">
-						<a href="projects/tockle">Website</a>
-						<a href="#" id="info-less-1">Less Info</a>
-					</div>
-				</div>
-				<div class="card card-2">
-					<div class="image darken" id="card-2-image">
-						<img src="res/img/card-2.png">
-						<span class="title title-lobster">Ensemble</span>
-					</div>
-					<div class="content" id="card-2-content">
-						<p>Unified streaming music.</p>
-					</div>
-					<div class="content" id="card-2-content-more">
-						<div class="title title-lobster">Ensemble</div>
-						<ul class="no-bullets">
-							<li><b>Launched:</b> March 2015</li>
-							<li><b>Platform:</b> Web</li>
-						</ul>
-						<b>Notes</b>
-						<ul>
-							<li>Created as part of HackDFW 2015</li>
-							<li>Currently supports Google Play Music and YouTube</li>
-						</li>
-					</div>
-					<div class="action" id="card-2-action">
-						<a href="https://ensembleplayer.me">Web</a>
-						<a href="#" id="info-more-2">More Info</a>
-					</div>
-					<div class="action" id="card-2-action-more">
-						<a href="http://github.com/EnsemblePlayer">GitHub</a>
-						<a href="#" id="info-less-2">Less Info</a>
-					</div>
-				</div>
-				
-				<div class="card card-3">
-					<div class="image" id="card-3-image">
-						<img src="res/img/card-3.png">
-					</div>
-					<div class="content" id="card-3-content">
-						<p>UT Austin's annual premiere hackathon.</p>
-					</div>
-					<div class="content" id="card-3-content-more">
-						<div class="title">HackTX</div>
-						<ul>
-							<li>Tech Director (2016)</li>
-							<li>Designed and developed Electron, a lightning fast check-in system for Android.</li>
-							<li>Designed and developed schedule view and Bluetooth beacon integration for event's Android application.</li>
-						</li>
-					</div>
-					<div class="action" id="card-3-action">
-						<a href="https://hacktx.com">Web</a>
-						<a href="#" id="info-more-3">More Info</a>
-					</div>
-					<div class="action" id="card-3-action-more">
-						<a href="http://github.com/hacktx/electron">Electron</a>
-						<a href="http://github.com/hacktx/android">Android</a>
-						<a href="#" id="info-less-3">Less Info</a>
-					</div>
-				</div>
-				
-				<div class="stacked-cards">
-					<div class="card card-4">
-						<div class="content">
-							<span class="title">More Projects</span>
-							<p>Even more projects available on GitHub.</p>
+		<div class="projects-outer">
+			<div class="projects-inner">
+				<div class="cards">
+					<div class="card card-1">
+						<div class="image" id="card-1-image">
+							<img src="res/img/card-1.jpg">
+							<span class="title title-lobster">Tockle</span>
 						</div>
-						<div class="action">
-							<a href="https://github.com/TexasGamer">GitHub</a>
+						<div class="content" id="card-1-content">
+							<p>Control your phone from Android Wear.</p>
+						</div>
+						<div class="content" id="card-1-content-more">
+							<div class="title title-lobster">Tockle</div>
+							<ul class="no-bullets">
+								<li><b>Launched:</b> August 2014</li>
+								<li><b>Platform:</b> Android</li>
+								<li><b>Active users:</b> 8,000</li>
+								<li><b>Downloads:</b> 30,000</li>
+							</ul>
+							<b>Coverage</b>
+							<ul>
+								<li>Gizmodo, Android Police, and more</li>
+								<li>Featured at Google I/O 2015</li>
+							</li>
+						</div>
+						<div class="action" id="card-1-action">
+							<a href="https://play.google.com/store/apps/details?id=com.texasgamer.tockle">Play Store</a>
+							<a href="#" id="info-more-1">More Info</a>
+						</div>
+						<div class="action" id="card-1-action-more">
+							<a href="projects/tockle">Website</a>
+							<a href="#" id="info-less-1">Less Info</a>
 						</div>
 					</div>
-					<div class="card card-5">
-						<div class="content">
-							<span class="title">About Me</span>
-							<p>I'm a second year Computer Science major at The University of Texas at Austin with a passion for tech and the outdoors.</p><br>
+					<div class="card card-2">
+						<div class="image darken" id="card-2-image">
+							<img src="res/img/card-2.png">
+							<span class="title title-lobster">Ensemble</span>
+						</div>
+						<div class="content" id="card-2-content">
+							<p>Unified streaming music.</p>
+						</div>
+						<div class="content" id="card-2-content-more">
+							<div class="title title-lobster">Ensemble</div>
+							<ul class="no-bullets">
+								<li><b>Launched:</b> March 2015</li>
+								<li><b>Platform:</b> Web</li>
+							</ul>
+							<b>Notes</b>
+							<ul>
+								<li>Created as part of HackDFW 2015</li>
+								<li>Currently supports Google Play Music and YouTube</li>
+							</ul>
+						</div>
+						<div class="action" id="card-2-action">
+							<a href="https://ensembleplayer.me">Web</a>
+							<a href="#" id="info-more-2">More Info</a>
+						</div>
+						<div class="action" id="card-2-action-more">
+							<a href="http://github.com/EnsemblePlayer">GitHub</a>
+							<a href="#" id="info-less-2">Less Info</a>
 						</div>
 					</div>
-				</div>
-				<div class="buttons">
-					<a class="back-btn animate" href="#">Back</a>
+					
+					<div class="card card-3">
+						<div class="image" id="card-3-image">
+							<img src="res/img/card-3.png">
+						</div>
+						<div class="content" id="card-3-content">
+							<p>UT Austin's annual premiere hackathon.</p>
+						</div>
+						<div class="content" id="card-3-content-more">
+							<div class="title">HackTX</div>
+							<ul>
+								<li>Tech Director (2016)</li>
+								<li>Designed and developed Electron, a lightning fast check-in system for Android.</li>
+								<li>Designed and developed schedule view and Bluetooth beacon integration for event's Android application.</li>
+							</li>
+						</div>
+						<div class="action" id="card-3-action">
+							<a href="https://hacktx.com">Web</a>
+							<a href="#" id="info-more-3">More Info</a>
+						</div>
+						<div class="action" id="card-3-action-more">
+							<a href="http://github.com/hacktx/electron">Electron</a>
+							<a href="http://github.com/hacktx/android">Android</a>
+							<a href="#" id="info-less-3">Less Info</a>
+						</div>
+					</div>
+					
+					<div class="stacked-cards">
+						<div class="card card-4">
+							<div class="content">
+								<span class="title">More Projects</span>
+								<p>Even more projects available on GitHub.</p>
+							</div>
+							<div class="action">
+								<a href="https://github.com/TexasGamer">GitHub</a>
+							</div>
+						</div>
+						<div class="card card-5">
+							<div class="content">
+								<span class="title">About Me</span>
+								<p>I'm a second year Computer Science major at The University of Texas at Austin with a passion for tech and the outdoors.</p><br>
+							</div>
+						</div>
+					</div>
+					<div class="buttons">
+						<a class="back-btn animate" href="#">Back</a>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.projects').hide();
+	$('.projects-outer').hide();
 	$('#card-1-content-more').hide();
 	$('#card-1-action-more').hide();
 	$('#card-2-content-more').hide();
@@ -9,13 +9,13 @@ $(document).ready(function() {
 	
 	$('.projects-btn').click(function(e) {   
 	    $('.profile').fadeOut('fast', function() {
-	        $('.projects').fadeIn('fast');
+	        $('.projects-outer').fadeIn('fast');
 	    });
 		return false;
 	});
 
 	$('.back-btn').click(function(e) {   
-	    $('.projects').fadeOut('fast', function() {
+	    $('.projects-outer').fadeOut('fast', function() {
 	        $('.profile').fadeIn('fast');
 	    });
 		return false;
