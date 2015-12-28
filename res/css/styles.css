@@ -369,6 +369,10 @@ body {
 }
 
 @media (max-width: 1860px) {
+	.projects {
+		margin: 20px;
+	}
+
 	.cards {
 		width: 750px;
 		margin: auto;
