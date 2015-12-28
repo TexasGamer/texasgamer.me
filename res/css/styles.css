@@ -179,6 +179,7 @@ body {
     left: 0;
     right: 0;
     margin: auto;
+    text-align: center;
 }
 
 .buttons {
@@ -221,6 +222,7 @@ body {
 .card {
 	display: inline-block;
 	vertical-align: top;
+	text-align: left;
 	width: 350px;
 	position: relative;
 	overflow: hidden;
@@ -372,6 +374,7 @@ body {
 	.cards {
 		width: 750px;
 		margin-top: 20px;
+		text-align: left;
 	}
 }
 
