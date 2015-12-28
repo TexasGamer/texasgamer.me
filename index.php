@@ -48,7 +48,7 @@
 							<li><b>Launched:</b> August 2014</li>
 							<li><b>Platform:</b> Android</li>
 							<li><b>Active users:</b> 8,000</li>
-							<li><b>Downloads:</b> 20,000</li>
+							<li><b>Downloads:</b> 30,000</li>
 						</ul>
 						<b>Coverage</b>
 						<ul>
@@ -76,7 +76,7 @@
 					<div class="content" id="card-2-content-more">
 						<div class="title title-lobster">Ensemble</div>
 						<ul class="no-bullets">
-							<li><b>Launched:</b> Under Development</li>
+							<li><b>Launched:</b> March 2015</li>
 							<li><b>Platform:</b> Web</li>
 						</ul>
 						<b>Notes</b>
@@ -103,8 +103,9 @@
 						<p>UT Austin's annual premiere hackathon.</p>
 					</div>
 					<div class="content" id="card-3-content-more">
-						<div class="title">HackTX 2015</div>
+						<div class="title">HackTX</div>
 						<ul>
+							<li>Tech Director (2016)</li>
 							<li>Designed and developed Electron, a lightning fast check-in system for Android.</li>
 							<li>Designed and developed schedule view and Bluetooth beacon integration for event's Android application.</li>
 						</li>
