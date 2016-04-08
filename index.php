@@ -83,7 +83,7 @@
 							<b>Notes</b>
 							<ul>
 								<li>Created as part of HackDFW 2015</li>
-								<li>Currently supports Google Play Music and YouTube</li>
+								<li>Supports Google Play Music and YouTube</li>
 							</ul>
 						</div>
 						<div class="action" id="card-2-action">
