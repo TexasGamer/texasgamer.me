@@ -26,7 +26,7 @@
 					<li class="animate"><a href="resume.pdf">RESUME</a></li>
 					<li class="animate"><a href="http://google.com/+ThomasGaubert">GOOGLE+</a></li>
 					<li class="animate"><a href="http://twitter.com/ThomasGaubert">TWITTER</a></li>
-					<li class="animate"><a href="mailto:tpgaubert@gmail.com">EMAIL</a></li>
+					<li class="animate"><a href="https://www.linkedin.com/in/tpgaubert">LINKEDIN</a></li>
 				</ul>
 			</div>
 			<a class="projects-btn animate" href="#">Projects</a>
