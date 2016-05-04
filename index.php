@@ -101,18 +101,19 @@
 							<img src="res/img/card-3.png">
 						</div>
 						<div class="content" id="card-3-content">
-							<p>UT Austin's annual premiere hackathon.</p>
+							<p>Texas ΛΑΝ + Freetail Hackers</p>
 						</div>
 						<div class="content" id="card-3-content-more">
-							<div class="title">HackTX</div>
+							<div class="title">Texas ΛΑΝ</div>
 							<ul>
-								<li>Tech Director (2016)</li>
-								<li>Designed and developed Electron, a lightning fast check-in system for Android.</li>
-								<li>Designed and developed schedule view and Bluetooth beacon integration for event's Android application.</li>
-							</li>
+								<li>Treasurer (2016 - Present)</li>
+							</ul>
+							<div class="title">Freetail Hackers (HackTX)</div>
+							<ul>
+								<li>Tech Director (2016 - Present)</li>
+							</ul>
 						</div>
 						<div class="action" id="card-3-action">
-							<a href="https://hacktx.com">Web</a>
 							<a href="#" id="info-more-3">More Info</a>
 						</div>
 						<div class="action" id="card-3-action-more">
