@@ -117,9 +117,9 @@
 							<a href="#" id="info-more-3">More Info</a>
 						</div>
 						<div class="action" id="card-3-action-more">
-							<a href="http://github.com/hacktx/electron">Electron</a>
-							<a href="http://github.com/hacktx/android">Android</a>
-							<a href="#" id="info-less-3">Less Info</a>
+							<a href="https://texaslan.org">ΛΑΝ</a>
+							<a href="https://freetailhackers.com">Freetail Hackers</a>
+							<a href="#" id="info-less-3">Less</a>
 						</div>
 					</div>
 					
