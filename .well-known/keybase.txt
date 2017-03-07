@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/thomasgaubert
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://gaubert.io
+  * I am thomasgaubert (https://keybase.io/thomasgaubert) on keybase.
+  * I have a public key with fingerprint 5856 D234 5F88 3A09 3131  D567 78CB 8D33 11B7 049C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101b0f1ab2819cf4f554172c46b38a34d1fcb34c1e28d4830e090840eee4596ba4f0a",
+            "fingerprint": "5856d2345f883a093131d56778cb8d3311b7049c",
+            "host": "keybase.io",
+            "key_id": "78cb8d3311b7049c",
+            "kid": "01015beca261ff7f07d02100d0db670142994ea8db4c96442e6276bf2c302d24fefc0a",
+            "uid": "b64a3715fd2998b3aa91cb8cf4ccbc19",
+            "username": "thomasgaubert"
+        },
+        "service": {
+            "hostname": "gaubert.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1488918089,
+    "expire_in": 157680000,
+    "prev": "b694c3a0586588d776379d80f5ae7d1b9bbda9abeb982492d97db02ab3e598ff",
+    "seqno": 17,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.64
+Comment: https://keybase.io/crypto
+
+yMNzAnicbVJtUFRVGN7lK4IYN1JMEoELIiXCPfee+7UmliOWgVpGCzEY3XPvuXAF
+dtf9QAgIMyMZqRRCGmASLT/GgCmSKJGARG2HKcVRy60QEkuCMMJqqh3qLtH0p/Pn
+zHnP8zzv87zz9of46oL0xQOv0Hd3+jXpB/oanbrMnrD1pQSyyCWEsZTIx7MXLpCx
+3ZGTr8qEkSABCRCpABFRPBAkBSoMAwFHSZBFNC/SUAaKhGgoAUzxMuRpEpMCyUMS
+YwwZgUUiVEiRSCAU1ZyLbVabanZosgzPsDJFQ0bheVokBRrQQGZYjuMlxMs0DQDi
+SChIGjHPYvcyNHNItONE1aLVtEfOrL3/wf/nm0FYEikWKAqnkJxMUoAkZVJGLEcC
+SAkCxCIvIygJLIQUZimORQol0SQlU1DBijTr2zkrh1go0hxgFFnj8YgWRQFonbV5
+SBKSgOAF2rHNLBZiDe3IsxSK9lzRibDNQZQnENpXkSph73S9ceZgc4B/IlltFodF
+shRo9TyHw2o3enmOEqsXuB2jnDmJHKSaZW2UGqMI2+yqxUwYgYaUHKpXE0CeFwBP
+8kICgYutqg3nqF4Ew7E8qR1vH1w0G0iAkjZ5hmcZnpc5jqU5QeZJhRExJwMkICSL
+gogwEngKCpQscDIiKRHRmBF4RSG8obaZLZo2p/kUczVNu5prFh1OGybKP+nL9tPp
+g3QB/j7eHdMF3Wn4d/NubJznuevg8b98sup/LKmpr00xfbBr/OfVX1yMGho6LZdd
+rnBe31K1bBCEuUc8hw3Xzyd1PbCiCzdPnxhbHq6Wu7ofXhry9Ln4qB7nq9OTBcm9
+Tv3t5zyGBe5detshv5nH91XBC/d/0+jeHfDn5m7Pe1HHwaW9VOgCw0vhTwYnE9H6
+vMAG/wn6EOU48mHzxLydwZH5zW8dqIlc5SoZr05OBFNV/X98/ZX7+5vCprj84h/O
++w1dG9iWaJopau6BUmZ7z71X8+MH1+0vW9JZXLD1dsoxfl1T6LSxx9SSFJtTk3Ek
+8sp03o2Zxbtn+t0jqzbUjJo+m7RG9MXMX7RkZe3JymtxD01+VFuZMbXdkDJ66s0V
+ezddeTaiYzC+VR1aG+CSBresXr+nzuSTO7Pm4yxP7A4ZJlZ0pz/44j3fOheNNAjx
+l1I2t4pvPzX8aYnld13UiTd2hFV2/JTWVdTb6q+07esab+lZGYX0Z4ab17ge69+Z
+1G760pr9wstHK/zFC5VAziurzgrOiD7o6/rl1sXDvyaebQgpT43tXGjI7tjY93nb
+2piF1J6Grb+5Is5lcM/HnKx7Ij0wbrj3vur2wt7Qxtc9x3wtzyy7WfrI2OWz8fuj
+6bSrZ959p/5UKHzNb8zovlUX//785YbJ1UuhX1pq3aM+36X6TI021R/NZBe3pB+Y
+kHDxuM+G3kDdHeGnJbUgre1v4aC8kQ==
+=xXzn
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/thomasgaubert
+
+==================================================================
