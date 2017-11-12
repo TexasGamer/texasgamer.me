@@ -308,6 +308,11 @@ body {
 	font-size: 48px !important;
 }
 
+.title-righteous {
+	font-family: 'Righteous', cursive;
+	font-size: 48px !important;
+}
+
 .stacked-cards {
   	width: 350px; 
   	display: inline-block;
