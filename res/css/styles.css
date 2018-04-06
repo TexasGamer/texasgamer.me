@@ -65,10 +65,30 @@ body {
 }
 
 /* Projects */
+.projects-container {
+  padding: 0 150px;
+}
+
 .project {
   height: 250px;
-  padding: 0 150px;
   margin-bottom: 10px;
+}
+
+.project-half {
+  padding: 0;
+  width: 50%;
+}
+
+.project-half .half-left {
+  margin-right: 5px;
+}
+
+.project-half .half-right {
+  margin-left: 5px;
+}
+
+.project-half-container {
+  display: flex;
 }
 
 .project-container {
@@ -92,17 +112,13 @@ body {
   margin-bottom: 50px;
 }
 
-.project h2 {
-  text-transform: lowercase;
-}
-
 .project-tagline {
   font-family: 'Sanchez', serif;
 }
 
-/* Project: Microsoft; */
+/* Project: Microsoft */
 .project-ms {
-  background-color: rgb(85, 88, 175);
+  background-color: #5558AF;
   color: white;
 }
 
@@ -111,9 +127,29 @@ body {
   font-family: 'SegoeUI', 'Arial', 'Helvetica', sans-serif;
 }
 
+/* Project: Yelp */
+.project-yelp {
+  background-color: #C41200;
+  color: white;
+}
+
+.project-yelp > .icon {
+  right: 5px;
+}
+
+/* Project: HackTX */
+.project-hacktx {
+  background-color: #22215B;
+  color: white;
+}
+
+.project-hacktx > .icon {
+  right: 5px;
+}
+
 /* Project: Zephyr */
 .project-zephyr {
-  background-color: rgb(13, 37, 58);
+  background-color: #0D253A;
   color: white;
 }
 
@@ -128,7 +164,7 @@ body {
 
 /* Project: Tockle */
 .project-tockle {
-  background-color: rgb(173, 0, 0);
+  background-color: #AD0000;
   color: white;
 }
 
