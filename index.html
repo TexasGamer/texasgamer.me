@@ -15,6 +15,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400|Sanchez:400,400i|Righteous|Lobster" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <link href="res/css/styles.css" rel="stylesheet">
 </head>
 <body>
@@ -39,7 +40,7 @@
   <div class="projects-container">
     <section class="project">
       <div class="project-container project-ms">
-        <img class="icon" src="res/img/ms-teams.png" />
+        <img class="icon" src="res/img/ms-teams.png" data-aos="fade-up"/>
         <div class="project-caption">
           <h2>Microsoft Teams</h2>
           <span class="project-tagline">The hub for teamwork in Office 365</span>
@@ -47,28 +48,10 @@
       </div>
     </section>
 
-    <!-- <section class="project">
-      <div class="project-container project-container-half left project-yelp">
-        <img class="icon" src="res/img/ms-teams.png" />
-        <div class="project-caption">
-          <h2>Yelp</h2>
-          <span class="project-tagline">Core Android</span>
-        </div>
-      </div>
-
-      <div class="project-container project-container-half right project-lan">
-        <img class="icon" src="res/img/ms-teams.png" />
-        <div class="project-caption">
-          <h2>HackTX</h2>
-          <span class="project-tagline">The UT Austin hackathon</span>
-        </div>
-      </div>
-    </section> -->
-
     <div class="project-half-container">
       <section class="project project-half">
         <div class="project-container project-yelp half-left">
-          <img class="icon" src="res/img/yelp.png" />
+          <img class="icon" src="res/img/yelp.png" data-aos="fade-up"/>
           <div class="project-caption">
             <h2>Yelp</h2>
             <span class="project-tagline">Core Android</span>
@@ -78,7 +61,7 @@
 
       <section class="project project-half">
         <div class="project-container project-hacktx half-right">
-          <img class="icon" src="res/img/hacktx.png" />
+          <img class="icon" src="res/img/hacktx.png" data-aos="fade-up"/>
           <div class="project-caption">
             <h2>HackTX</h2>
             <span class="project-tagline">The UT Austin hackathon</span>
@@ -89,7 +72,7 @@
 
     <section class="project">
       <div class="project-container project-zephyr">
-        <img class="icon" src="res/img/zephyr.png" />
+        <img class="icon" src="res/img/zephyr.png" data-aos="fade-up"/>
         <div class="project-caption">
           <h2>Zephyr</h2>
           <span class="project-tagline">Android notifications mirrored to VR</span>
@@ -99,7 +82,7 @@
 
     <section class="project">
       <div class="project-container project-tockle">
-        <img class="icon" src="res/img/tockle.png" />
+        <img class="icon" src="res/img/tockle.png" data-aos="fade-up"/>
         <div class="project-caption">
           <h2>Tockle</h2>
           <span class="project-tagline">Control your phone from Android Wear</span>
@@ -113,4 +96,10 @@
   </section>
   
 </body>
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true
+  });
+</script>
 </html>
