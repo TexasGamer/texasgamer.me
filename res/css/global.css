@@ -1,0 +1,13 @@
+/*
+ * Site-wide styles
+ */ 
+
+/* Global */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+  font-family: 'SegoeUI' ;
+  src: url('../font/SegoeUI.ttf') format('truetype');
+}
