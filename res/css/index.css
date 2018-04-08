@@ -242,7 +242,7 @@
 }
 
 @media only screen and (max-width : 700px) {
-  /* Hide side links in favor of mobile links; hide icons */
+  /* Hide side links in favor of mobile links; icons are up and smaller */
   .links {
     display: none;
   }
@@ -251,7 +251,11 @@
     display: block;
   }
 
-  .icon {
-    display: none;
+  .block-container > .icon {
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
   }
 }
