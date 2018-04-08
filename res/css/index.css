@@ -63,7 +63,7 @@
 /* Hero */
 .hero {
   height: 90%;
-  padding-top: 25%;
+  padding-top: 30%;
 }
 
 .bio {
@@ -84,7 +84,9 @@
 
 /* Blocks */
 .blocks-container {
+  margin: auto;
   padding: 0 150px;
+  max-width: 90%;
 }
 
 .block {
@@ -257,5 +259,16 @@
     position: absolute;
     top: 10px;
     right: 10px;
+  }
+}
+
+@media only screen and (max-width : 360px) {
+  /* Hide icons */
+  .bio h1 {
+    font-size: 2em;
+  }
+
+  .block-container > .icon {
+    display: none;
   }
 }
