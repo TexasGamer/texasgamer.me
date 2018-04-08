@@ -201,13 +201,6 @@
   font-family: 'Lobster', cursive;
 }
 
-/* Footer */
-.footer {
-  font-size: 0.75em;
-  padding: 1rem;
-  text-align: center;
-}
-
 /* Breakpoints */
 @media only screen and (max-width : 1300px) {
   /* Half blocks now take up entire row */

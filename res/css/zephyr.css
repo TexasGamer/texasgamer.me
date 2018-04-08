@@ -1,0 +1,20 @@
+/*
+ * Styles for Zephyr project page
+ */ 
+
+body {
+  background-color: #0D253A;
+  color: white;
+}
+
+.header .header-title {
+  font-family: 'Righteous', cursive;
+}
+
+hr {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+}
+
+.suggestions a {
+  color: white;
+}
